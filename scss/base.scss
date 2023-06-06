@@ -1,0 +1,32 @@
+@import "./vars";
+
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+html::-webkit-scrollbar {
+    width: 10px;
+}
+
+html::-webkit-scrollbar-track {
+    background-color: $light-dark;
+}
+
+html::-webkit-scrollbar-thumb {
+    background-color: $gold;
+}
+
+body {
+    position: relative;
+
+    background-color: $dark;
+
+    &.disable {
+        overflow: hidden;
+    }
+}
+
+.container {
+    max-width: $container-width;
+    margin: 0 auto;
+}

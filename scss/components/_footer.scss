@@ -1,0 +1,69 @@
+@import "../vars";
+
+.footer {
+    padding: 60px;
+
+    background-color: $gold;
+
+    &__inner {
+        display: flex;
+        align-items: center;
+    }
+
+    &__logo {
+        max-width: 160px;
+        max-height: 46px;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    &__contact {
+        margin-left: 30px;
+
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    &__address {
+        color: #f2f2f2;
+
+        opacity: 0.8;
+    }
+
+    &__email {
+        display: block;
+        margin-top: 10px;
+
+        color: $dark;
+        text-decoration: none;
+    }
+
+    &__phones {
+        margin-left: 90px;
+
+        font-size: 14px;
+        line-height: 16px;
+
+        a {
+            display: block;
+
+            color: #f2f2f2;
+            text-decoration: none;
+        }
+
+        a + a {
+            margin-top: 10px;
+        }
+    }
+
+    &__link {
+        margin: auto 0 0 auto;
+
+        font-size: 14px;
+        line-height: 16px;
+        color: $dark;
+    }
+}

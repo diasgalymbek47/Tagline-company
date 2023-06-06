@@ -1,0 +1,22 @@
+@import "../vars";
+
+.title {
+    font-size: 40px;
+    line-height: 49px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: $white;
+
+    &::before {
+        content: "";
+
+        display: block;
+
+        width: 90px;
+        height: 6px;
+
+        margin-bottom: 40px;
+
+        background-color: $gold;
+    }
+}

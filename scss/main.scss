@@ -1,0 +1,23 @@
+//Page loader
+@import "./components/pageLoader";
+
+//Styles
+@import "./styles/title";
+
+//Page components
+@import "./components/hero";
+@import "./components/slider";
+@import "./components/services";
+@import "./components/about";
+@import "./components/map";
+@import "./components/offices";
+
+//Common components
+@import "./components/header";
+@import "./components/footer";
+@import "./components/scrollUp";
+@import "./components/modal";
+
+.main {
+    margin-bottom: -4px;
+}

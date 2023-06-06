@@ -1,0 +1,28 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+html::-webkit-scrollbar {
+  width: 10px;
+}
+
+html::-webkit-scrollbar-track {
+  background-color: #353d44;
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: #c8a35f;
+}
+
+body {
+  position: relative;
+  background-color: #2f343a;
+}
+body.disable {
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1107px;
+  margin: 0 auto;
+}

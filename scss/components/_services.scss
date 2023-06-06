@@ -1,0 +1,71 @@
+@import "../vars";
+
+.services {
+    padding: 120px 0;
+
+    &__list {
+        margin-top: 60px;
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1px;
+    }
+
+    &__list-item {
+        width: calc(25% - 1px);
+        height: 180px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+
+        background-color: $light-dark;
+
+        transition: 0.3s ease;
+
+        cursor: pointer;
+
+        &:hover {
+            background-color: $gold;
+        }
+
+        &:hover &-icon {
+            background-color: $white;
+        }
+
+        &:hover &-icon path {
+            fill: $dark;
+        }
+    }
+
+    &__list-item-icon {
+        width: 70px;
+        height: 70px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        border-radius: 50%;
+
+        transition: 0.3s ease;
+
+        & path {
+            fill: #ffffff;
+
+            transition: 0.3s ease;
+        }
+    }
+
+    &__list-item-title {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: $white;
+    }
+}
